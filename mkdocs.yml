@@ -85,6 +85,7 @@ nav:
   - "Talks":
       - "Overview": "talks/index.md"
       - "Search / Indexing / Chunking":
+          - "TurboPuffer: Object Storage-First Vector Database Architecture (Simon, TurboPuffer)": "talks/turbopuffer-engine.md"
           - "Text Chunking Strategies (Anton, ChromaDB)": "talks/chromadb-anton-chunking.md"
           - "Lexical Search in RAG Applications (John Berryman)": "talks/john-lexical-search.md"
           - "Query Routing for RAG Systems (Anton, ChromaDB)": "talks/query-routing-anton.md"

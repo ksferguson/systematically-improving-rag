@@ -86,6 +86,9 @@ LLMs as "pilots that see the world as strings" fundamentally can't understand nu
 
 #### Search Technologies
 
+**[TurboPuffer: Object Storage-First Vector Database Architecture](turbopuffer-engine.md)** - Simon (TurboPuffer)  
+Object storage-first vector database reduces costs by up to 95% while maintaining performance through intelligent caching. Surprising insight: traditional vector databases become prohibitively expensive at scale, but TurboPuffer's tiered storage approach (object storage → SSD → RAM) makes vector search economically viable for massive datasets. Real-world validation: companies like Notion, Cursor, and Linear have migrated to save millions while improving performance.
+
 **[Lexical Search in RAG Applications](john-lexical-search.md)** - John Berryman  
 Why semantic search struggles with exact matching, product IDs, and specialized terminology. Lexical search provides efficient simultaneous filtering and rich metadata that helps LLMs make better decisions. Recommended approach: use lexical search for filtering, semantic search for understanding meaning.
 

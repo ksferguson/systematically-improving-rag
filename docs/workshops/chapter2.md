@@ -13,19 +13,6 @@ tags:
 
 # Converting Evaluations into Training Data for Fine-Tuning
 
-## Learning Objectives
-
-By the end of this chapter, you will be able to:
-
-1. **Understand why off-the-shelf embeddings fail for specialized applications** - Recognize the limitations of generic models and the hidden assumptions that prevent them from handling domain-specific similarity requirements
-2. **Master the fundamentals of similarity and objective functions** - Define what "similarity" means in your specific context and design training objectives that capture these relationships  
-3. **Build custom embeddings using synthetic data and evaluation frameworks** - Transform your Chapter 1 evaluation examples into training data for fine-tuning embedding models
-4. **Apply contrastive learning techniques for retrieval systems** - Implement triplet structures with hard negatives to improve domain-specific retrieval accuracy by 6-10%
-5. **Design and implement fine-tuning workflows** - Execute complete embedding and re-ranker training processes that cost hundreds of dollars rather than thousands
-6. **Create continuous data collection systems** - Start logging relevancy signals now to build the training datasets that will power future improvements
-
-These objectives build directly on the evaluation foundation from Chapter 1 and prepare you for the feedback collection mechanisms in Chapter 3.
-
 ### Key Insight
 
 **If you're not fine-tuning, you're Blockbuster, not Netflix.** The goal isn't to fine-tune language models (which are expensive and complex), but to fine-tune embedding models that move toward your specific data distributions and improve retrieval, not generation.
@@ -51,6 +38,20 @@ These objectives build directly on the evaluation foundation from Chapter 1 and 
     - Complexity: Requires ML expertise
 
     This dramatic difference explains why embedding fine-tuning should be your first focus.
+
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+1. **Understand why off-the-shelf embeddings fail for specialized applications** - Recognize the limitations of generic models and the hidden assumptions that prevent them from handling domain-specific similarity requirements
+2. **Master the fundamentals of similarity and objective functions** - Define what "similarity" means in your specific context and design training objectives that capture these relationships  
+3. **Build custom embeddings using synthetic data and evaluation frameworks** - Transform your Chapter 1 evaluation examples into training data for fine-tuning embedding models
+4. **Apply contrastive learning techniques for retrieval systems** - Implement triplet structures with hard negatives to improve domain-specific retrieval accuracy by 6-10%
+5. **Design and implement fine-tuning workflows** - Execute complete embedding and re-ranker training processes that cost hundreds of dollars rather than thousands
+6. **Create continuous data collection systems** - Start logging relevancy signals now to build the training datasets that will power future improvements
+
+These objectives build directly on the evaluation foundation from Chapter 1 and prepare you for the feedback collection mechanisms in Chapter 3.
 
 ## Introduction
 

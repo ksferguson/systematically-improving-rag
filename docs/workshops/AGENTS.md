@@ -22,6 +22,57 @@ This directory contains the comprehensive workshop series for building self-impr
 - **Case studies**: Real-world examples with specific metrics
 - **The RAG Flywheel**: Measure → Analyze → Improve → Iterate methodology
 
+## Chapter Template
+
+```markdown
+---
+title: "Chapter N.M: Descriptive Title"
+description: One-line summary of the outcome students achieve
+authors:
+  - Your Name
+date: YYYY-MM-DD
+tags: [topic-a, topic-b]
+---
+
+# Descriptive Title
+
+### Key Insight
+Concise, bold takeaway that frames the chapter.
+
+## Learning Objectives
+- Outcome 1 (measurable)
+- Outcome 2
+
+!!! info "Context"
+Brief background or cross-links (e.g., builds on Chapter 2).
+
+## Introduction
+Why this matters; how it connects to the flywheel.
+
+## Practical Implementation
+Step-by-step with short code blocks and outputs.
+
+```mermaid
+graph TD
+  A[Input] --> B[Step]
+```
+
+## Measurement & Validation
+Metrics, formulas (e.g., Expected Value = Impact × Volume × Success).
+
+## Checklist & Next Steps
+- [ ] Student can X
+- [ ] Student can Y
+```
+
+## Authoring Checklist
+- Front matter present and accurate (title, description, tags)
+- One clear Key Insight and 2–6 Learning Objectives
+- At least one actionable exercise with expected outcome
+- Use `!!! info/success/tip` admonitions for emphasis
+- Keep paragraphs short; prefer bullets; avoid jargon
+- Link forward/back to adjacent chapters where useful
+
 ## Key Concepts Covered
 
 - **Product mindset**: Treating RAG as evolving product, not static implementation

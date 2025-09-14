@@ -6,6 +6,14 @@ author: Jason Liu
 
 # Overcoming Latency: Streaming and Interstitials
 
+### Key Insight
+
+**Perceived performance beats actual performance—users will wait 8 seconds with progress bars but abandon after 3 seconds of silence.** Streaming isn't just about showing text faster. It's about maintaining user engagement through the entire retrieval-generation pipeline. Implement streaming early because retrofitting it later adds weeks to your development cycle.
+
+!!! info "Learn the Complete RAG Playbook"
+    All of this content comes from my [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK) course. Readers get **20% off** with code EBOOK. Join 500+ engineers who've transformed their RAG systems from demos to production-ready applications.
+
+
 ## Learning Objectives
 
 By the end of this chapter, you will be able to:
@@ -18,13 +26,6 @@ By the end of this chapter, you will be able to:
 6. **Create feedback collection opportunities through streaming** - Use streaming interfaces to increase feedback collection rates by 30-40% compared to traditional wait-and-display approaches
 
 These objectives build directly on the feedback collection mechanisms from Chapter 3.1 and prepare you for the quality-of-life improvements in Chapter 3.3.
-
-### Key Insight
-
-**Perceived performance beats actual performance—users will wait 8 seconds with progress bars but abandon after 3 seconds of silence.** Streaming isn't just about showing text faster. It's about maintaining user engagement through the entire retrieval-generation pipeline. Implement streaming early because retrofitting it later adds weeks to your development cycle.
-
-!!! info "Learn the Complete RAG Playbook"
-    All of this content comes from my [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK) course. Readers get **20% off** with code EBOOK. Join 500+ engineers who've transformed their RAG systems from demos to production-ready applications.
 
 ## Introduction
 

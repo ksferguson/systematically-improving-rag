@@ -13,6 +13,14 @@ tags:
 
 # 3.3 Quality of Life Improvements: Citations, Chain of Thought, and Validation
 
+### Key Insight
+
+**Having the model "think out loud" before answering improves accuracy by 15-20%—especially for long contexts.** When dealing with complex queries or extensive documents, asking the model to explicitly reiterate key information reorganizes the context and enables effective "re-reading" of the prompt. This simple technique improves reasoning without any architectural changes.
+
+!!! info "Learn the Complete RAG Playbook"
+    All of this content comes from my [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK) course. Readers get **20% off** with code EBOOK. Join 500+ engineers who've transformed their RAG systems from demos to production-ready applications.
+
+
 ## Learning Objectives
 
 By the end of this chapter, you will be able to:
@@ -25,13 +33,6 @@ By the end of this chapter, you will be able to:
 6. **Create capability showcasing interfaces** - Guide users toward successful interactions by prominently displaying system strengths and setting appropriate expectations
 
 These objectives build directly on the streaming foundations from Chapter 3.2 and prepare you for the query analysis techniques in Chapter 4.
-
-### Key Insight
-
-**Having the model "think out loud" before answering improves accuracy by 15-20%—especially for long contexts.** When dealing with complex queries or extensive documents, asking the model to explicitly reiterate key information reorganizes the context and enables effective "re-reading" of the prompt. This simple technique improves reasoning without any architectural changes.
-
-!!! info "Learn the Complete RAG Playbook"
-    All of this content comes from my [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK) course. Readers get **20% off** with code EBOOK. Join 500+ engineers who've transformed their RAG systems from demos to production-ready applications.
 
 ## Introduction: Building Better User Experience
 
@@ -290,7 +291,7 @@ As context windows grow larger, one might think that managing complex informatio
 
 Monologuing—having the model explicitly reiterate key information before generating a response—has emerged as an effective technique to enhance reasoning and quality, especially with large contexts and complex documents.
 
-### Key Insight
+### Additional Insights
 
 When dealing with long contexts, language models often struggle with recall and processing all instructions. Having the model monologue - explicitly reiterate key information before answering - reorganizes the context to allow effective "re-reading" of the prompt, improving reasoning without complex architectural changes.
 

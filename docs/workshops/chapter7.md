@@ -13,6 +13,21 @@ tags:
 
 # Production Considerations
 
+### Key Insight
+
+**Shipping is the starting line—production success comes from cost-aware design, observability, and graceful degradation.** Optimize for reliability and total cost of ownership, not just model quality.
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+1. Estimate and compare end-to-end RAG costs (write/read, retrieval, generation, caching)
+2. Choose between write-time and read-time computation and design multi-level caches
+3. Define and monitor key product and system metrics for RAG (latency, recall, cost/query)
+4. Implement fallback and degradation strategies to maintain availability under failure
+5. Select storage and retrieval backends based on scale and operational constraints
+6. Apply security and compliance basics (PII handling, RBAC, audit logging)
+
 ## What This Chapter Covers
 
 - Cost optimization and token economics

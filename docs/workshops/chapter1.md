@@ -13,19 +13,6 @@ tags:
 
 # Kickstarting the Data Flywheel with Synthetic Data
 
-## Learning Objectives
-
-By the end of this chapter, you will be able to:
-
-1. **Understand common pitfalls that sabotage RAG applications** - Identify and avoid the reasoning fallacy, vague metrics problem, and generic solution trap that prevent meaningful improvement
-2. **Distinguish between leading and lagging metrics** - Focus on actionable leading metrics like experiment velocity rather than outcome metrics you cannot directly control  
-3. **Combat absence blindness and intervention bias** - Systematically address what you cannot see and avoid making changes without measuring impact
-4. **Build comprehensive evaluation frameworks using synthetic data** - Create evaluation datasets before having real users to establish baselines and test improvements
-5. **Implement retrieval-focused metrics first** - Prioritize precision and recall over generation quality because they are faster, cheaper, and more objective to measure
-6. **Create systematic experimentation processes** - Establish the data flywheel that turns evaluation examples into training data for continuous improvement
-
-These objectives establish the foundational measurement and improvement practices that enable all advanced techniques in subsequent chapters.
-
 ### Key Insight
 
 **You can't improve what you can't measure—and you can measure before you have users.** Synthetic data isn't just a stopgap until real users arrive. It's a powerful tool for establishing baselines, testing edge cases, and building the evaluation infrastructure that will power continuous improvement. Start with retrieval metrics (precision and recall), not generation quality, because they're faster, cheaper, and more objective.
@@ -38,6 +25,20 @@ These objectives establish the foundational measurement and improvement practice
 Alright, let's talk about making RAG applications actually work. Most teams I work with are stuck in this weird loop where they keep tweaking things randomly and hoping something sticks. Sound familiar?
 
 Here's what we're going to cover: how to set up evaluations that actually tell you something useful, common ways teams shoot themselves in the foot (and how to avoid them), and how to use synthetic data to test your system before you even have users.
+
+
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+1. **Understand common pitfalls that sabotage RAG applications** - Identify and avoid the reasoning fallacy, vague metrics problem, and generic solution trap that prevent meaningful improvement
+2. **Distinguish between leading and lagging metrics** - Focus on actionable leading metrics like experiment velocity rather than outcome metrics you cannot directly control  
+3. **Combat absence blindness and intervention bias** - Systematically address what you cannot see and avoid making changes without measuring impact
+4. **Build comprehensive evaluation frameworks using synthetic data** - Create evaluation datasets before having real users to establish baselines and test improvements
+5. **Implement retrieval-focused metrics first** - Prioritize precision and recall over generation quality because they are faster, cheaper, and more objective to measure
+6. **Create systematic experimentation processes** - Establish the data flywheel that turns evaluation examples into training data for continuous improvement
+
+These objectives establish the foundational measurement and improvement practices that enable all advanced techniques in subsequent chapters.
 
 ## Common Pitfalls in AI Development
 

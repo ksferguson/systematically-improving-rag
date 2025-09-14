@@ -13,6 +13,14 @@ tags:
 
 # Prioritization and Roadmapping: From Insights to Action
 
+### Key Insight
+
+**Inventory issues need data, capability issues need features—knowing the difference saves months.** When retrieval fails, ask: is the information missing (inventory) or can't we process it correctly (capability)? Use the priority formula: (Impact × Volume %) / (Effort × Risk). This transforms "make the AI better" into "fix scheduling queries affecting 20% of users."
+
+!!! info "Learn the Complete RAG Playbook"
+    All of this content comes from my [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK) course. Readers get **20% off** with code EBOOK. Join 500+ engineers who've transformed their RAG systems from demos to production-ready applications.
+
+
 ## Learning Objectives
 
 By the end of this chapter, you will be able to:
@@ -25,13 +33,6 @@ By the end of this chapter, you will be able to:
 6. **Avoid common prioritization pitfalls** - Prevent analysis paralysis, recognize user adaptation patterns, and focus on simplest solutions that work rather than over-engineering
 
 These objectives build directly on the segmentation analysis from Chapter 4.1 and prepare you for building specialized retrievers in Chapter 5.
-
-### Key Insight
-
-**Inventory issues need data, capability issues need features—knowing the difference saves months.** When retrieval fails, ask: is the information missing (inventory) or can't we process it correctly (capability)? Use the priority formula: (Impact × Volume %) / (Effort × Risk). This transforms "make the AI better" into "fix scheduling queries affecting 20% of users."
-
-!!! info "Learn the Complete RAG Playbook"
-    All of this content comes from my [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK) course. Readers get **20% off** with code EBOOK. Join 500+ engineers who've transformed their RAG systems from demos to production-ready applications.
 
 ## Introduction
 

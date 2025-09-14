@@ -21,6 +21,15 @@ tags:
 !!! info "Learn the Complete RAG Playbook"
     All of this content comes from my [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK) course. Readers get **20% off** with code EBOOK. Join 500+ engineers who've transformed their RAG systems from demos to production-ready applications.
 
+## Learning Objectives
+
+By the end of this chapter, you will be able to:
+
+1. Explain the difference between an implementation mindset and a product mindset for RAG systems
+2. Frame RAG as a recommendation engine wrapped around language models
+3. Describe the improvement flywheel and where evaluation, feedback, and iteration fit
+4. Identify common failure modes of static RAG deployments and how to avoid them
+
 Look, I've been building AI systems for over a decade, and I keep seeing the same mistake: teams ship a RAG system, pat themselves on the back, and then watch it slowly fail in production.
 
 This chapter is about avoiding that trap. We're going to talk about why the most successful RAG systems aren't the ones with the fanciest embeddings or the biggest context windows—they're the ones that get better every week based on what users actually do with them.
@@ -347,5 +356,4 @@ Next up: we'll dive into the first step of the flywheel—creating synthetic dat
 _Note: I've used this approach with companies across legal, finance, healthcare, and e-commerce. The details change, but the core flywheel stays the same: focus on users, measure what matters, and improve based on data instead of hunches._
 
 ---
-
 

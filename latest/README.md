@@ -57,10 +57,22 @@ Here are some links on how to get your individual API keys
 
 - [Getting a Cohere API Keys](https://docs.cohere.com/v2/docs/rate-limits)
 - [Getting an OpenAI Key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
+- [Getting a Google Gemini API Key](https://ai.google.dev/gemini-api/docs/api-key)
+- [Getting a Cohere API Key](https://dashboard.cohere.ai/api-keys)
 - [Getting your Hugging Face Token](https://huggingface.co/docs/hub/en/security-tokens)
 - [Getting your Logfire Token](https://logfire.pydantic.dev/docs/how-to-guides/create-write-tokens/)
 - [Getting your Logfire Read Token](https://logfire.pydantic.dev/docs/how-to-guides/query-api/)
 - [Getting your Braintrust API Key](https://www.braintrust.dev/docs/reference/api/ApiKeys)
+
+## API Credits & Support
+
+This course uses Google Gemini and Cohere APIs which require credits/payment which is part of the course.
+
+**If you encounter issues with API setup or credits:**
+- Email: support@jxnl.co
+- Include your error message and which notebook you're working on
+- We can help troubleshoot API configuration issues
+
 
 You can either set these environment variables in your shell ( [Here is an article on how to do so](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html) or run the following code snippet in your notebooks to load it from the `.env` file we've provided.
 

@@ -1,0 +1,14 @@
+{
+  "links": {
+    "Study Notes": "https://567-labs.github.io/systematically-improving-rag/",
+    "Talks": "https://567-labs.github.io/systematically-improving-rag/talks/",
+    "Slack": "https://join.slack.com/t/improvingrag/shared_invite/zt-3dkinqb3q-vknvaBLoTx5tBj4PpGOVjw"
+  },
+  "qr_code_settings": {
+    "size": 400,
+    "padding": 20,
+    "text_height": 60,
+    "error_correction": "HIGH"
+  },
+  "output": "/Users/jasonliu/dev/systematically-improving-rag/intro-slides/assets/images/codes.jpeg"
+}

@@ -72,6 +72,7 @@ dependencies = [
     # "mkdocs-sitemap-plugin>=0.8.0",            # Uncomment for SEO sitemap
     # "mike>=2.0.0",                             # Uncomment for versioned docs
     "cairosvg>=2.8.2",
+    "qrcode>=8.2",
 ]
 
 [build-system]

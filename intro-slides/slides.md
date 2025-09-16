@@ -27,29 +27,43 @@ Building reliable, production-grade retrieval-augmented generation.
 By Jason Liu
 
 ---
+
 # Introduce yourself!
 
 - Where are you calling in from?
-- What are you working on?
+- Are you working on a project right now?
 - What are your goals for the course?
 
 ---
+
 # Today’s Plan
 
-- Course overview and syllabus highlights
-- Goals, outcomes, and key logistics
-- Watch the first session, then office hours
-- Changes since v1: agents, longer context, workflow shifts
-
+- Introductions
+- About me; consulting and training
+- Who are you?
+- Format & office hours
+- Key insights & course outcomes
+- What’s changed since v1 (2024)
+- Syllabus (Sessions 0–3)
+- Syllabus (Sessions 4–6)
+- Resources & contributions
+- Q&A and next steps
 
 ---
 
-
 # About Me (Jason Liu)
 
-- University of Waterloo (2012–2017): Computational Mathematics, Mathematical Physics; computational linear algebra → matrix factorization/embedding models → retrieval and deep learning
-- Meta (2017): Content policy/moderation, public risk & safety; built dashboards and search tools to surface harmful content
-- Stitch Fix (2018–2023): CV + multimodal retrieval; VAEs/GANs for GenAI; ~$50M incremental revenue; led ~$400K/yr data curation for next‑gen models
+- University of Waterloo (2012–2017):
+  - Computational Mathematics, Mathematical Physics
+  - Computational linear algebra → compression/embedding models → retrieval and deep learning
+- Meta (2017):
+  - Content policy/moderation, public risk & safety
+  - Built dashboards and search tools to surface harmful content
+- Stitch Fix (2018–2023):
+  - CV + multimodal retrieval
+  - VAEs/GANs for GenAI
+  - ~$50M incremental revenue
+  - led ~$400K/yr data curation for next‑gen models
 
 ---
 
@@ -61,27 +75,60 @@ By Jason Liu
 
 ---
 
-# Who’s Here (Cohort)
+# Format & Office Hours
 
-- ~30% founders/CTOs • ~20% senior engineers • ~50% SWE/DS/PM/SE/consultants
-- Companies represented: OpenAI, Anthropic, Google, Microsoft, Amazon; Salesforce, Adobe, Cisco, Shopify; Accenture, McKinsey, Bain, PwC; EA, and many startups
-- Ask: share constraints and examples; we’ll tailor office hours
-- Success = measurable improvements on your actual problems
+- Inverted classroom: ~6 hours pre‑recorded lectures + tutorial videos
+- Tutorials/Notebooks: Jupyter exercises to tackle between sessions
+- Slack: post questions in the cohort channel for async help
+- Welcome to share your learnings online via linked in or twitter (please link back to us some how)
+
+<v-click>
+
+## Office hours:
+
+- bring your problems, introduce yourself.
+- treat it like a tech‑lead review of your work
+- cameras on is really appreciated! helps me a lot.
+- Guest lectures: 1-2 times a week, practitioners actively building in the space.
+
+</v-click>
+
+<v-click>
+
+## Logistics
+
+- Scheduling: occasional reschedules (e.g., OpenAI Dev Day); advance notice
+- Credits/support: contact Marian — support at jxnl.co (support@jxnl.co)
+
+</v-click>
 
 ---
 
 # Key Insights & Course Outcomes
 
 This course will give you the foundations and practical skills to build, evaluate, and operate retrieval-augmented generation (RAG) systems. Here’s what to keep in mind and what you’ll learn:
+
 ### Keep these in mind
 
 - Good retrieval will often beat clever prompting.
 - Similarity is subjective, train for your specific goals.
 - Feedback is fuel, design your UX to capture useful signals.
-- Success is two-level, P(right tool) × P(success | tool).
 - Specialized indices often outperform one-size-fits-all solutions (though this is shifting as contexts/tools evolve).
 - Segmenting queries and users to prioritize work and build a roadmap.
 - Production matters, cache, monitor, and degrade gracefully.
+
+---
+
+# The Models are Good but Context Is the Bottleneck
+
+<v-click>
+
+- Models are already very capable for work.
+- Even if models hold steady, apps can still improve.
+- With the right context, success rates are very high.
+- The real challenge is getting that context — the R in retrieval.
+
+</v-click>
 
 ---
 
@@ -111,7 +158,8 @@ Lets talk more about this in the office hours!
 <v-click>
 
 ## Main takeaway
-- fast retrieval evals (precision/recall on key chunks) 
+
+- fast retrieval evals (precision/recall on key chunks)
 - rerank/fine‑tune to get a 10-20% improvement
 - deploy and collect real data via UX
 
@@ -129,6 +177,7 @@ Lets talk more about this in the office hours!
 <v-click>
 
 ## Main takeaway
+
 - Figure out whats important to you and your users
 - Build specialized indices for those usecases
 - Make sure the Agent is able to use the specialized indices
@@ -137,52 +186,30 @@ Lets talk more about this in the office hours!
 
 ---
 
-# Format & Office Hours
-
-- Inverted classroom: ~6 hours pre‑recorded lectures + tutorial videos
-- Tutorials/Notebooks: Jupyter exercises to tackle between sessions
-- Slack: post questions in the cohort channel for async help
-
-<v-click>
-
-## Office hours: 
-  - bring your problems
-  - treat it like a tech‑lead review
-  - cameras on is really appreciated! helps me a lot.
-- Guest lectures: 1-2 times a week, practitioners actively building in the space
-
-</v-click>
-
-<v-click>
-
-## Logistics
-
-- Scheduling: occasional reschedules (e.g., OpenAI Dev Day); advance notice
-- Credits/support: contact Marian — support at jxnl.co (support@jxnl.co)
-  
-</v-click>
-
----
-
 # Resources & Contributions
 
-Feel free to share this with coworkers, but don't post on social media.
+Feel free to share this with coworkers, but don't post these links on social media. You can completely welcome to write your own notes and share them online! (Please link back to us some how)
 
 <v-click>
 
 ## Resources
+
+![QR Codes for Resources](./assets/images/codes.jpeg)
+
 - Study notes (work in progress): https://567-labs.github.io/systematically-improving-rag/
-- Talks/“greatest hits”: https://567-labs.github.io/systematically-improving-rag/talks/
+- Talks/"greatest hits": https://567-labs.github.io/systematically-improving-rag/talks/
+- Slack: https://join.slack.com/t/improvingrag/shared_invite/zt-3dkinqb3q-vknvaBLoTx5tBj4PpGOVjw
 - Contribute via PRs/issues; add examples; suggest edits
 </v-click>
 
 <v-click>
 
 ## Recommendations
-  - Skylar’s RAG anti‑patterns Talk
-  - Anton's Text Chunking Strategies Talk
-  - Exa's Why Google Search Sucks for AI Talk
-  - Colin's Agentic RAG Talk
+
+- Skylar’s RAG anti‑patterns Talk
+- Anton's Text Chunking Strategies Talk
+- Exa's Why Google Search Sucks for AI Talk
+- Colin's Agentic RAG Talk
 </v-click>
 
 ---

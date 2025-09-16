@@ -4,25 +4,12 @@ description: Cohort kickoff — syllabus, logistics, key insights, outcomes
 authors:
   - Jason Liu
 date: 2025-01-01
-tags:
-  - rag
-  - course
-  - intro
-  - syllabus
-  - agents
-  - retrieval
-  - evaluation
-  - context-engineering
 theme: seriph
 class: text-left
 drawings:
   persist: false
 highlighter: shiki
 lineNumbers: true
-fonts:
-  mono: JetBrains Mono
-  sans: Inter
-  serif: Bitter
 download: true
 presenter: true
 exportFilename: systematically-improving-rag-intro
@@ -40,16 +27,6 @@ Building reliable, production-grade retrieval-augmented generation.
 By Jason Liu
 
 ---
-
-# Today’s Plan
-
-- Course overview and syllabus highlights
-- Goals, outcomes, and key logistics
-- Watch the first session, then office hours
-- Changes since v1: agents, longer context, workflow shifts
-
----
-
 # Introduce yourself!
 
 - Where are you calling in from?
@@ -57,16 +34,30 @@ By Jason Liu
 - What are your goals for the course?
 
 ---
+# Today’s Plan
+
+- Course overview and syllabus highlights
+- Goals, outcomes, and key logistics
+- Watch the first session, then office hours
+- Changes since v1: agents, longer context, workflow shifts
 
 
-# About the Instructor
+---
+
+
+# About Me (Jason Liu)
 
 - University of Waterloo (2012–2017): Computational Mathematics, Mathematical Physics; computational linear algebra → matrix factorization/embedding models → retrieval and deep learning
 - Meta (2017): Content policy/moderation, public risk & safety; built dashboards and search tools to surface harmful content
 - Stitch Fix (2018–2023): CV + multimodal retrieval; VAEs/GANs for GenAI; ~$50M incremental revenue; led ~$400K/yr data curation for next‑gen models
+
+---
+
+# Consulting and Training
+
+- Personal note: Hand injury (2021–2022) → shifted focus to higher‑leverage teaching and advising
 - Consulting (2023–present): Query understanding, prompts, embedding search, fine‑tuning, MLOps/observability; upgrading legacy workflows to agentic systems
 - Clients: HubSpot, Zapier, Limitless, and others across assistants, construction, research
-- Personal note: Hand injury (2021–2022) → shifted focus to higher‑leverage teaching and advising
 
 ---
 
@@ -94,7 +85,9 @@ This course will give you the foundations and practical skills to build, evaluat
 
 ---
 
-# What’s Changed Since v1
+# What’s Changed Since v1 (2024)
+
+Lets talk more about this in the office hours!
 
 - Since Claude 3.5, tools/agents are much more reliable; planning loops keep improving
 - Code assistants (e.g., Claude Code) excel at code RAG flows: grep + edit with validation
@@ -115,10 +108,14 @@ This course will give you the foundations and practical skills to build, evaluat
   - Pacing note: Week 3 is intentionally lighter—use it to catch up and get ahead
   - Focus on UX patterns; not the most critical week content‑wise
 
+<v-click>
+
 ## Main takeaway
 - fast retrieval evals (precision/recall on key chunks) 
 - rerank/fine‑tune to get a 10-20% improvement
 - deploy and collect real data via UX
+
+</v-click>
 
 ---
 
@@ -129,40 +126,67 @@ This course will give you the foundations and practical skills to build, evaluat
 - Session 6: Query routing; tools-as-APIs; single vs multi-agent; measurement
   - Week 6 is lighter; focus on routing and preview the context‑engineering direction
 
+<v-click>
+
 ## Main takeaway
 - Figure out whats important to you and your users
 - Build specialized indices for those usecases
 - Make sure the Agent is able to use the specialized indices
 
+</v-click>
+
 ---
 
-## Format & Office Hours
+# Format & Office Hours
 
 - Inverted classroom: ~6 hours pre‑recorded lectures + tutorial videos
 - Tutorials/Notebooks: Jupyter exercises to tackle between sessions
 - Slack: post questions in the cohort channel for async help
-- Office hours: 
+
+<v-click>
+
+## Office hours: 
   - bring your problems
   - treat it like a tech‑lead review
   - cameras on is really appreciated! helps me a lot.
 - Guest lectures: 1-2 times a week, practitioners actively building in the space
+
+</v-click>
+
+<v-click>
+
+## Logistics
+
 - Scheduling: occasional reschedules (e.g., OpenAI Dev Day); advance notice
 - Credits/support: contact Marian — support at jxnl.co (support@jxnl.co)
+  
+</v-click>
+
 ---
 
-## Resources & Contributions
+# Resources & Contributions
 
+Feel free to share this with coworkers, but don't post on social media.
+
+<v-click>
+
+## Resources
 - Study notes (work in progress): https://567-labs.github.io/systematically-improving-rag/
 - Talks/“greatest hits”: https://567-labs.github.io/systematically-improving-rag/talks/
-  - Recommendations
-    - Skylar’s RAG anti‑patterns Talk
-    - Anton's Text Chunking Strategies Talk
-    - Exa's Why Google Search Sucks for AI Talk
-    - Colin's Agentic RAG Talk
 - Contribute via PRs/issues; add examples; suggest edits
+</v-click>
+
+<v-click>
+
+## Recommendations
+  - Skylar’s RAG anti‑patterns Talk
+  - Anton's Text Chunking Strategies Talk
+  - Exa's Why Google Search Sucks for AI Talk
+  - Colin's Agentic RAG Talk
+</v-click>
 
 ---
 
-## Q&A
+# Q&A
 
-Questions, goals, and constraints.
+Short Q&A and then we'll let you watch the first video.

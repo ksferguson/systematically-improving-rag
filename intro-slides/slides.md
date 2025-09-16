@@ -18,9 +18,9 @@ colorSchema: auto
 slideNumber: true
 ---
 
-# Systematically Improving RAG
+# Systematically Improving RAG Applications
 
-Building reliable, production-grade retrieval-augmented generation.
+September 16, 2025, `maven.com/applied-llms/rag-playbook`
 
 <br>
 
@@ -77,8 +77,7 @@ By Jason Liu
 
 # Format & Office Hours
 
-- Inverted classroom: ~6 hours pre‑recorded lectures + tutorial videos
-- Tutorials/Notebooks: Jupyter exercises to tackle between sessions
+- Inverted classroom: ~6 hours pre‑recorded lectures + tutorial videos + Jupyter exercises
 - Slack: post questions in the cohort channel for async help
 - Welcome to share your learnings online via linked in or twitter (please link back to us some how)
 
@@ -216,4 +215,9 @@ Feel free to share this with coworkers, but don't post these links on social med
 
 # Q&A
 
-Short Q&A and then we'll let you watch the first video.
+Short Q&A (About the Class Format) and then we'll let you watch the first videos
+
+1) Find 'Optional: Watch Lecture' on your Calendar as a shortcut
+2) Feel free to watch at 2x speed!
+
+See you at the office hours!

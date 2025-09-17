@@ -1,6 +1,30 @@
-# Systematically Improving RAG -- Cohort 2 Code
+# Systematically Improving RAG - Cohort 2 (Legacy)
+
+## ⚠️ Important Notice
+
+**This directory contains legacy materials from Cohort 2 and is kept for reference only.**
+
+### For Current Course Work
+
+**Please use the `latest/` directory instead:**
+
+```bash
+cd ../latest/
+```
+
+The `latest/` directory contains:
+
+- Updated course materials with Python 3.11 support
+- Modern dependency management with `uv`
+- Enhanced case studies and comprehensive WildChat project
+- All latest improvements and bug fixes
+- Better packaging that avoids the `Multiple top-level packages` error
+
+### About This Legacy Directory
 
 All of this material is supported by the **Systematically Improving RAG Course**. [**Click here to get 20% off →**](https://maven.com/applied-llms/rag-playbook?promoCode=EBOOK)
+
+**Note**: If you're encountering packaging issues like "Multiple top-level packages discovered in a flat-layout", this is a known issue with the legacy cohort directories. The `latest/` directory has proper package structure and avoids these problems.
 
 To install the requirements, run `pip install -r requirements.txt`. Make sure that you're using the correct Python version - this course requires Python 3.9 because of our `BERTopic` dependency.
 

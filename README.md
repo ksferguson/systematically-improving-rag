@@ -174,6 +174,12 @@ mkdocs build
 
 ## Getting Started
 
+### Important: Use the `latest/` Directory
+
+**⚠️ Always work in the `latest/` directory for the most current course content.**
+
+The `cohort_1/` and `cohort_2/` directories contain materials from previous course iterations and are kept for reference only. All new development and course work should be done in `latest/`.
+
 ### Prerequisites
 
 - Python 3.11 (required - the project uses specific features from this version)
@@ -182,7 +188,11 @@ mkdocs build
 ### Installation
 
 1. Clone the repository
-2. Install dependencies:
+2. Navigate to the `latest/` directory:
+   ```bash
+   cd latest/
+   ```
+3. Install dependencies:
 
    ```bash
    # Using uv (recommended)
@@ -192,9 +202,9 @@ mkdocs build
    pip install -e .
    ```
 
-3. Start with `/latest/week0/` for the most up-to-date content
-4. Follow the notebooks in sequential order within each week
-5. Reference the corresponding book chapters in `/docs` for deeper understanding
+4. Start with `week0/` for the most up-to-date content
+5. Follow the notebooks in sequential order within each week
+6. Reference the corresponding book chapters in `/docs` for deeper understanding
 
 ### Code Quality
 

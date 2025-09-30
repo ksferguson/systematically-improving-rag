@@ -4,7 +4,7 @@
 
 This week focuses on one of the most impactful ways to improve RAG system performance: fine-tuning embedding models for your specific domain. Generic embedding models are trained on broad internet data and may not capture the nuances of your particular use case. By fine-tuning these models with domain-specific data, you can achieve significant improvements in retrieval quality.
 
-You'll explore two complementary approaches to fine-tuning: using managed services like Cohere that handle the infrastructure complexity for you, and open-source solutions using sentence-transformers that give you complete control over the process. Both approaches demonstrate 15-30% improvements in key retrieval metrics, making fine-tuning one of the highest-ROI optimizations for RAG systems.
+**Note**: As of September 2025, Cohere no longer supports fine-tuning. This week now focuses primarily on open-source fine-tuning using sentence-transformers, which gives you complete control over the training process and demonstrates 15-30% improvements in key retrieval metrics, making fine-tuning one of the highest-ROI optimizations for RAG systems.
 
 ## Learning Objectives
 
@@ -12,11 +12,11 @@ By the end of this week, you'll be able to:
 
 - Generate high-quality synthetic training data for embedding fine-tuning
 - Implement manual review processes to ensure training data quality
-- Fine-tune embedding models using both managed services and open-source tools
+- Fine-tune embedding models using open-source tools like sentence-transformers
 - Create effective training datasets with hard and semi-hard negatives
 - Evaluate fine-tuned models against baselines using established metrics
-- Deploy fine-tuned models to production environments
-- Make informed decisions between managed and self-hosted approaches
+- Deploy fine-tuned models to Hugging Face Hub for production use
+- Understand triplet loss and semi-hard negative mining techniques
 
 ## Notebooks
 
@@ -37,26 +37,7 @@ By the end of this week, you'll be able to:
 - Manual review interface using Streamlit
 - Evaluation pipeline with LanceDB for measuring improvements
 
-### 2. Finetune Cohere.ipynb (Deprecated)
-
-> **Note**: As of September 2025, Cohere no longer supports fine-tuning. This notebook is kept for reference purposes.
-
-**Purpose**: Fine-tune a Cohere re-ranker model using managed services for simplified deployment
-
-**What You'll Learn**:
-
-- Hard negative mining techniques for effective training
-- Working with Cohere's fine-tuning API
-- Comparative evaluation of base vs. fine-tuned models
-- Performance analysis and visualization techniques
-
-**What You'll Build**:
-
-- Fine-tuned Cohere re-ranker model
-- Training dataset with carefully selected hard negatives
-- Performance comparison visualizations
-
-### 3. Open Source Models.ipynb
+### 2. Open Source Models.ipynb (Recommended)
 
 **Purpose**: Fine-tune open-source embedding models with complete control over the training process
 
@@ -65,13 +46,32 @@ By the end of this week, you'll be able to:
 - Triplet loss training with semi-hard negative mining
 - SentenceTransformerTrainer configuration and usage
 - Model deployment to Hugging Face Hub
-- Trade-offs between managed services and self-hosted solutions
+- Hyperparameter tuning and evaluation techniques
 
 **What You'll Build**:
 
 - Fine-tuned BAAI/bge-base-en embedding model
 - Training pipeline using sentence-transformers
 - Deployable model on Hugging Face Hub
+
+### 3. Finetune Cohere.ipynb (Deprecated - Reference Only)
+
+> **Note**: As of September 2025, Cohere no longer supports fine-tuning. Please focus on the Open Source Models notebook instead. This notebook is kept for reference purposes only.
+
+**Purpose**: Fine-tune a Cohere re-ranker model using managed services for simplified deployment
+
+**What You'll Learn**:
+
+- Hard negative mining techniques for effective training
+- Working with Cohere's fine-tuning API (deprecated)
+- Comparative evaluation of base vs. fine-tuned models
+- Performance analysis and visualization techniques
+
+**What You'll Build**:
+
+- Fine-tuned Cohere re-ranker model (no longer supported)
+- Training dataset with carefully selected hard negatives
+- Performance comparison visualizations
 
 ## Key Concepts
 
@@ -91,9 +91,9 @@ By the end of this week, you'll be able to:
 
 ### Technical Requirements
 
-- Python packages: `sentence-transformers`, `lancedb`, `braintrust`, `pydantic`, `openai`, `cohere`, `streamlit`
-- API keys: OpenAI API access, Cohere API key, Hugging Face token with write access
-- Hardware: GPU recommended for open-source fine-tuning (CPU possible but slower)
+- Python packages: `sentence-transformers`, `lancedb`, `braintrust`, `pydantic`, `openai`, `streamlit`
+- API keys: OpenAI API access, Hugging Face token with write access
+- Hardware: GPU recommended for fine-tuning (CPU possible but slower)
 
 ## Project Structure
 
@@ -126,9 +126,9 @@ After completing this week's materials, you'll have:
 
 1. A high-quality domain-specific training dataset with validated examples
 2. Fine-tuned embedding models showing 15-30% improvement in retrieval metrics
-3. Experience with both managed (Cohere) and open-source (sentence-transformers) approaches
-4. Deployed models ready for production use
-5. Clear understanding of when to use managed services vs. self-hosted solutions
+3. Hands-on experience with open-source fine-tuning using sentence-transformers
+4. Deployed models on Hugging Face Hub ready for production use
+5. Understanding of triplet loss, semi-hard negatives, and hyperparameter tuning
 
 ## Common Issues and Solutions
 
@@ -147,9 +147,9 @@ After completing this week's materials, you'll have:
 ## Next Steps
 
 - Complete notebooks in order to build upon concepts progressively
-- Compare performance gains between Cohere and open-source approaches
+- Experiment with different base models and hyperparameter configurations
 - Review Week 3 content to prepare for advanced retrieval techniques
-- Experiment with different negative sampling strategies
+- Explore different negative sampling strategies (hard vs. semi-hard negatives)
 
 ## Additional Resources
 

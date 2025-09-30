@@ -37,7 +37,9 @@ By the end of this week, you'll be able to:
 - Manual review interface using Streamlit
 - Evaluation pipeline with LanceDB for measuring improvements
 
-### 2. Finetune Cohere.ipynb
+### 2. Finetune Cohere.ipynb (Deprecated)
+
+> **Note**: As of September 2025, Cohere no longer supports fine-tuning. This notebook is kept for reference purposes.
 
 **Purpose**: Fine-tune a Cohere re-ranker model using managed services for simplified deployment
 
